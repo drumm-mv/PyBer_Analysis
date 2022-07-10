@@ -9,7 +9,7 @@ The purpose of this project is to analyze all the "PyBer" rideshare data from Ja
 - Software: Python 3.7, Jupyter Notebook, 1.68.1
 
 ## Results
-Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
+Based on the the Summary DataFrame and line chart below, we can see there may be a correlation between population density and use of service. We can see that the total rides, drivers, and fares increases from Rural (Low density) to Suburban (Moderate density) and the increases again from Suburban to Urban (High density). But the inverse occurs regarding the Average fares per ride and driver, with Urban areas having the lowest fare averages and Rural areas having the highest.
 
 ### Summary DataFrame for Urban, Suburban, and Rural ride-sharing data
 <div>
@@ -135,10 +135,13 @@ Using images from the summary DataFrame and multiple-line chart, describe the di
 </table>
 </div>
 
-### Total Fares by City Type line chart for January 1, 2019 to April 28, 2019
+### Total Fares by City Type line chart for 01/01/2019 to 04/28/2019
 ![image_name](analysis/Pyber_fare_summary.png)
 
 
 ## Summary
-Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
-
+Based on the results, below are three business recommendations to address a few disparities among the city types.
+- Reduce the number of drivers in urban areas, to increase the average fare per driver
+- Increase fares in urban areas
+- Provide a slight discount for rural customers. Decreasing the fares in rural areas, may increase the demand for service.
+  - *Note: This may lead to a need for a fourth recommendation of increasing driver counts within Rural areas.*
