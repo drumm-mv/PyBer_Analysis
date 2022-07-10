@@ -53,6 +53,89 @@ Using images from the summary DataFrame and multiple-line chart, describe the di
 </table>
 </div>
 
+### Total Fares by City Type dataframe
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>type</th>
+      <th>Rural</th>
+      <th>Suburban</th>
+      <th>Urban</th>
+    </tr>
+    <tr>
+      <th>date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2019-01-06</th>
+      <td>187.92</td>
+      <td>721.60</td>
+      <td>1661.68</td>
+    </tr>
+    <tr>
+      <th>2019-01-13</th>
+      <td>67.65</td>
+      <td>1105.13</td>
+      <td>2050.43</td>
+    </tr>
+    <tr>
+      <th>2019-01-20</th>
+      <td>306.00</td>
+      <td>1218.20</td>
+      <td>1939.02</td>
+    </tr>
+    <tr>
+      <th>2019-01-27</th>
+      <td>179.69</td>
+      <td>1203.28</td>
+      <td>2129.51</td>
+    </tr>
+    <tr>
+      <th>2019-02-03</th>
+      <td>333.08</td>
+      <td>1042.79</td>
+      <td>2086.94</td>
+    </tr>
+    <tr>
+      <th>2019-02-10</th>
+      <td>115.80</td>
+      <td>974.34</td>
+      <td>2162.64</td>
+    </tr>
+    <tr>
+      <th>2019-02-17</th>
+      <td>95.82</td>
+      <td>1045.50</td>
+      <td>2235.07</td>
+    </tr>
+    <tr>
+      <th>2019-02-24</th>
+      <td>419.06</td>
+      <td>1412.74</td>
+      <td>2466.29</td>
+    </tr>
+    <tr>
+      <th>2019-03-03</th>
+      <td>175.14</td>
+      <td>858.46</td>
+      <td>2218.20</td>
+    </tr>
+    <tr>
+      <th>2019-03-10</th>
+      <td>303.94</td>
+      <td>925.27</td>
+      <td>2470.93</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+### Total Fares by City Type line chart for January 1, 2019 to April 28, 2019
 ![image_name](analysis/Pyber_fare_summary.png)
 
 
